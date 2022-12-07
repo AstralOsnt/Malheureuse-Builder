@@ -474,7 +474,7 @@ class Builder:
         required_files = {'./main.py',
                           './requirements.txt',
                           './obfuscation.py',
-                          './Injection.py'}
+                          './injection.py'}
 
         for file in required_files:
             if not os.path.isfile(file):
