@@ -473,7 +473,8 @@ class Builder:
     def check(self):
         required_files = {'./main.py',
                           './requirements.txt',
-                          './obfuscation.py'}
+                          './obfuscation.py',
+                          './Injection.py'}
 
         for file in required_files:
             if not os.path.isfile(file):
